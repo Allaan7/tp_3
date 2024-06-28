@@ -14,14 +14,12 @@ header{
 }
 .firsttitle{
     display: flex;
-
 }
 .logo{
     width: 30px;
     height: 30px;
     margin-top: 5px;
 }
-
 .myshop{
     margin-left: 10px;
 }
@@ -103,7 +101,6 @@ h3{
 hr{ 
     color: rgb(1, 6, 69);
     margin: 1% 1%;
-
 }
 .stwo{
     display: flex;
@@ -113,15 +110,25 @@ hr{
     display: flex;
     margin-top: 3%;
 }
+.imgtxt p{
+    font-size: 15px;
+}
+.imgtxt img{
+    height: 70px;
+}
 .seemoresub{
+    color:  rgb(255, 113, 198);
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
+    margin-top: 10px;
 }
 footer{
     background-color: rgb(1, 6, 69);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 80px;
     margin-bottom: 0.5%;
     margin-left: 0.5%;
     margin-right: 0.5%;
